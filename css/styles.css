@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "OpenSans", sans-serif;
 }
 
 /* typography */
@@ -42,20 +42,23 @@ h6 {
 .topnav a {
     padding: 1rem;
     text-align: center;
-    color: black;
+    color: rgb(70, 70, 70);
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .topnav a:hover {
-    background-color: grey;
-    color: white;
+    background-color: rgb(220, 220, 220);
     transition: 0.5s;
 }
 
 .topnav a:active {
-    background-color: grey;
-    color: white;
+    background-color: rgb(220, 220, 220);
     /* help pls */
+}
+
+
+body {
+    background-color: aqua;
 }
