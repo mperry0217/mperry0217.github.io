@@ -35,12 +35,14 @@ h6 {
     width: 100%;
     top: 0;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     background-color: white;
+    /* overflow: hidden; */
+    /* horizontal excess navbar HELP */
 }
 
 .topnav a {
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     color: rgb(70, 70, 70);
     text-decoration: none;
@@ -55,7 +57,26 @@ h6 {
 
 .topnav a:active {
     background-color: rgb(220, 220, 220);
-    /* help pls */
+    /* not working, help pls */
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 5rem;
+    background-color: white;
+    /* excess width HELP  */
+}
+
+footer .right {
+    float:right;
+}
+
+footer .left {
+    float:left;
 }
 
 
