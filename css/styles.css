@@ -3,6 +3,10 @@
     font-family: "OpenSans", sans-serif;
 }
 
+body {
+    background-color: azure;
+}
+
 /* typography */
 h1 {
     font-size: 5.61rem;
@@ -28,13 +32,7 @@ h6 {
     font-size: 1.333rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+a {
     color: black;
     text-decoration: none;
 }
@@ -43,44 +41,38 @@ p {
 /* navbar */
 .topnav {
     position: sticky;
-    width: 100%;
     top: 0;
     text-align: center;
     padding: 2rem;
-    background-color: white;
-    /* overflow: hidden; */
-    /* horizontal excess navbar HELP */
+    background-color: azure;
 }
 
 .topnav a {
     padding: 2rem;
     text-align: center;
-    color: rgb(70, 70, 70);
+    color: rgb(50, 70, 80);
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .topnav a:hover {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(200, 220, 230);
     transition: 0.5s;
 }
 
-.topnav a:active {
-    background-color: rgb(220, 220, 220);
-    /* not working, help pls */
+#active {
+    background-color: rgb(200, 220, 230);
 }
 
 
 /* footer */
 footer {
-    position: sticky;
     bottom: 0;
-    width: 100%;
     padding: 2rem 5rem;
     padding-bottom: 4rem;
-    background-color: white;
-    /* excess width HELP  */
+    background-color: azure;
+    align-items: center;
 }
 
 footer .right {
@@ -91,7 +83,12 @@ footer .left {
     float:left;
 }
 
-/* flexbox attempts */
+footer img {
+    height: 2rem;
+    padding-right: 1rem; 
+}
+
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -99,42 +96,64 @@ footer .left {
 
 }
 
+/* HOME Heading section */
+
 .main {
     display: flex;
     flex-direction: row;
     align-items:center;
+    margin: 7rem 0rem;
 }
 
 .main img {
     width: 30%;
 }
 
-.main h2 {
+.maintext {
     padding-left: 5rem;
+}
+
+/* HOME news section */
+
+.news {
+    padding-top: 5rem;
 }
 
 .articles {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.article1,
-.article2 {
-    padding: 0rem 5rem;
+.articles img {
+    width: 50%;
+    float:left;
+    margin-right: 1rem;
 }
+
+.article1 {
+    padding-right: 5rem;
+}
+
+/* HOME top picks section  */
 
 .picks {
+    padding: 10rem;
+}
+
+.toppicks {
     display:flex;
     flex-direction: row;
 }
 
-.picks img {
-    height: 20%;
+.toppicks img {
+    height: 500px;
 }
 
-
-
-body {
-    background-color: aqua;
+.one,
+.two,
+.three {
+    padding: 3rem;
+    padding-left: 0rem
 }
