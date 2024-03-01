@@ -28,6 +28,17 @@ h6 {
     font-size: 1.333rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: black;
+    text-decoration: none;
+}
+
 
 /* navbar */
 .topnav {
@@ -84,8 +95,22 @@ footer .left {
 .wrapper {
     display: flex;
     flex-direction: column;
-    margin: 5rem;
+    margin: 5rem 10rem;
 
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.main img {
+    width: 30%;
+}
+
+.main h2 {
+    padding-left: 5rem;
 }
 
 .articles {
@@ -93,6 +118,21 @@ footer .left {
     flex-direction: row;
     justify-content: center;
 }
+
+.article1,
+.article2 {
+    padding: 0rem 5rem;
+}
+
+.picks {
+    display:flex;
+    flex-direction: row;
+}
+
+.picks img {
+    height: 20%;
+}
+
 
 
 body {
