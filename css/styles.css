@@ -172,7 +172,7 @@ footer img {
 
 .item img {
     float: left;
-    width:20%;
+    width:40%;
 }
 
 .item {
@@ -188,12 +188,27 @@ footer img {
     padding-bottom: 1rem;
 }
 
+.item h6 {
+    padding-bottom:1rem;
+}
+
 .item p {
-    /* padding-left:2rem; */
+    padding-left:2rem;
+    /* HELP */
 }
 
 /* PEOPLE */
 
 .title {
     text-align: center;
+}
+
+/* CONTACT */
+
+#info {
+    text-align: center;
+}
+
+#narrow {
+    padding: 0rem 10rem;
 }
