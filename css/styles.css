@@ -47,6 +47,12 @@ a {
     background-color: azure;
 }
 
+.topnav ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
 .topnav a {
     padding: 2rem;
     text-align: center;
@@ -139,7 +145,7 @@ footer img {
 /* HOME top picks section  */
 
 .picks {
-    padding: 10rem;
+    padding: 5rem 10rem;
 }
 
 .toppicks {
@@ -154,6 +160,17 @@ footer img {
 .one,
 .two,
 .three {
-    padding: 3rem;
-    padding-left: 0rem
+    padding: 1rem 3rem;
+    padding-left: 0rem;
+}
+
+/* ABOUT */
+.item img {
+    float: left;
+    width:20%;
+}
+
+.events {
+    display:flex;
+    flex-direction: column;
 }
